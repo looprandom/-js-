@@ -1,0 +1,65 @@
+/*清除默认样式*/
+#banner,
+#banner li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 600px;
+	height: 450px;
+	margin: 400px auto;
+	background-color: yellow;
+	position: relative;
+}
+#banner{
+	height: 450px;
+	position: absolute;
+}
+#banner li{
+	float: left;
+}
+#banner li img{
+	width: 600px;
+	height: 450px;
+}
+#button{
+	position: absolute;
+	bottom: 75px;
+	width: 125px;
+	left: 50%;
+	transform: translateX(-62.5px);
+}
+#button span{
+	width: 12px;
+	height: 12px;
+	margin: 5px;
+	float: left;
+	border-radius: 60px;
+	background-color: rgba(255,255,255,0.4);
+	cursor: pointer;
+
+}
+#button span.on{
+	background-color: orange;
+}
+.arrow{
+	cursor: pointer;
+	position: absolute;
+	padding: 0 5px;
+	top: 50%;
+	transform: translateY(-40px);
+	background-color: rgba(0,0,0,0.4);
+	display: none;
+	line-height: 80px;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+#prev{
+	left: 20px;
+}
+#next{
+	right: 20px;
+}
